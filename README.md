@@ -7,7 +7,7 @@ An arduino spectrometer was built to obtain the absorption spectrum of an arbitr
 With an RGB LED the sample is illuminated $I_o$ with the 7 main colors of the visible spectrum. On the other side of the sample is a photoresistor to measure the intensity of the output light $I_f$.
 ![image](https://user-images.githubusercontent.com/121773519/213818269-e4f29044-7ece-4842-89ae-1c89907f5d7b.png)
 
-The absorption is then computed for each color via  $$A=\log_{10}\left(\frac{I_o}{I_f}\right)$$
+The absorption is then computed for each color via  $$\large A=\log_{10}\left(\frac{I_o}{I_f}\right)$$
 
 ### Caracterization
 However it should be noted that the photoresistor measures voltage and it depends on the wavelenght (color) of the light source. So in order to translate what the photoresistor measures (Voltage) and the actual physical quantity (Intensity) a caracterization was employed.
@@ -21,7 +21,7 @@ With some spectrums associated with known concentrations for a given substance, 
 Then for an unkown concentration its spectrum is computed and the result is evaluated for each one of the 7 models. Finally the predictions are displayed along with the average.
 
 ## Circuit diagram
-![image](https://user-images.githubusercontent.com/121773519/213814558-a668fa34-6c39-4e73-aa74-ace89dc08007.png)
+![image](https://user-images.githubusercontent.com/121773519/213814558-a668fa34-6c39-4e73-aa74-ace89dc08007.png)  
 Credit: Ana Caviedes, avcaviedesa@unal.edu.co
 
 # Results 
@@ -33,5 +33,5 @@ Credit: Ana Caviedes, avcaviedesa@unal.edu.co
 ![image](https://user-images.githubusercontent.com/121773519/213816221-bac19f93-ce30-4cd6-b893-17b4d34d5a28.png)
 
 ## Concentration predictions
-![image](https://user-images.githubusercontent.com/121773519/213816659-a1e44e53-071b-4df4-b431-a96c75d00554.png)
+![image](https://user-images.githubusercontent.com/121773519/213816659-a1e44e53-071b-4df4-b431-a96c75d00554.png)  
 The real concentration was 0.65 [mol/L] this gives a 12% error with respect to the mean prediction and a minimun error of 3% provided by the red prediction (the same one that presented maximum absorption)
